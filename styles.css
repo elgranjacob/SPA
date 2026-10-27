@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+}
+
+.contenedor_cabecera {
+    border-top: 8px #ff3281 solid;
+    background-color: #fff9f1;
+    padding-bottom: 20px;
+}
+
+.contenedor_logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+}
+
+.contenedor_logo img {
+    margin-left: 150px;
+}
+
+.contenedor_redes {
+    display: inline-block;
+    vertical-align: middle;
+    width: 28%;
+    text-align: right;
+}
+
+.contenedor_redes img {
+    width: 40px;
+    margin-left: 15px;
+}
+
+.contenedor_navegacion {
+    border: 3px black solid;
+    padding: 5px 0;
+    width: 80%;
+    margin: 10px auto 0;
+    text-align: center;
+}
+
+.contenedor_navegacion a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 80px;
+}
+
+.contenedor_imagen {
+    background-image: url("imagenes/fondopiedras.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 528px;
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+
+.contenedor_imagen h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.contenedor_imagen p {
+    width: 500px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.contenedor_imagen a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #ff3281;
+    padding: 15px 25px;
+    margin: 30px 8px;
+    font-weight: bold;
+}
+/*a + a  quiere decir aplicar al hermano que esta adyancente donde dependen de la clase principal del padre*/
+.contenedor_imagen  a + a{ 
+    background-color: transparent;
+    border: 2px #ff3281 solid;
+}
+
+.contenedor_nuestros_productos {
+    width: 75%;
+    margin: auto;
+    padding: 25px 0;
+    min-height: 210px;
+}
+
+.contenedor_nuestros_productos h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contenedor_nuestros_productos p {
+    display: inline-block;
+    vertical-align: top;
+    width: 55%;
+    line-height: 24px;
+}
+
+.contenedor_nuestros_productos img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    margin-left: 80px;
+}
+
+.contenedor_buscamos_talento {
+    background-color: #fff9f1;
+    padding: 15px 0;
+    width: 100%;
+    min-height: 330px;
+}
+
+.contenedor_buscamos_talento h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contenedor_buscamos_talento img {
+    display: inline-block;
+    vertical-align: top;
+    width: 37%;
+    margin-left: 12%;
+    border-radius: 10px;
+}
+
+.contenedor_buscamos_talento div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 37%;
+    margin-left: 15px;
+    color: #777777;
+}
+
+.contenedor_buscamos_talento p span {
+    display: block;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contenedor_buscamos_talento p{
+    padding-bottom: 15px;
+    line-height: 30px;
+}
+
+.contenedor_info_salon {
+    width: 75%;
+    margin: auto;
+    padding: 25px 0 40px;
+}
+
+.contenedor_noticias_promos {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+
+.contenedor_video_instalaciones {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin-left: 3%;
+}
+
+.contenedor_noticias_promos h2,
+.contenedor_video_instalaciones h2 {
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.contenedor_noticias_promos p {
+    line-height: 20px;
+}
+
+.info {
+    color: #ff3281;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contenedor_formulario {
+    border: 3px #ff3281 solid;
+    padding: 10px;
+    margin-top: 15px;
+    width: 95%;
+}
+
+.contenedor_formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contenedor_formulario input {
+    display: block;
+    width: 90%;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px #999999 solid;
+}
+
+.contenedor_formulario button {
+    width: 115px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.contenedor_video_instalaciones iframe {
+    width: 560px;
+    height: 315px;
+    margin-top: 30px;
+}
+
+.contenedor_pie {
+    background-color: #fff9f1;
+    border-bottom: 8px #ff3281 solid;
+    min-height: 170px;
+    padding: 20px 12%;
+}
+
+.contenedor_pie img {
+    width: 110px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contenedor_pie div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
+    text-align: right;
+    color: #ff3281;
+    font-weight: bold;
+}
